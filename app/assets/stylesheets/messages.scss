@@ -1,3 +1,59 @@
-// Place all the styles related to the messages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@media (max-width: 599px) {
+  .wrapper {
+    display: flex;
+  
+  }
+  .head-bar-left {
+    background-color: #2aa5e7;
+    height: 50px;
+    width: 30vw;
+    padding: 0 5px;
+    background-color: #253141;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-name a{
+    font-size: 10px;
+    color: #FAFAFA;
+    text-decoration: none;
+  }
+  .create-room a {
+    font-size: 5px;
+    border: 1px solid lightblue;
+    padding: 3px;
+    color: deepskyblue;
+    text-decoration: none;
+  }
+  
+  .head-bar-right {
+    background-color: #61c1e4;
+    height: 50px;
+    width: 70vw;
+    padding: 0 10px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .header-title {
+    color: #333;
+    font-size: 12px;
+  }
+  
+  .header-button a {
+    text-decoration: none;
+    border: 1px solid darkred;
+    color: darkred;
+    padding: 3px;
+  }
+  .chat {
+    background-color: #FFFFFF;
+    height: calc(100vh - 150px);
+    padding: 46px 40px 0;
+  }
+  .under-bar {
+    background-color: #2aa5e7;
+    height: 100px;
+    padding: 20px 40px;
+  }
+  }
