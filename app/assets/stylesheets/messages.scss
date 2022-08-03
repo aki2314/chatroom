@@ -1,0 +1,125 @@
+@media (max-width: 599px) {
+  .wrapper {
+    display: flex;
+  
+  }
+  .head-bar-left {
+    background-color: #2aa5e7;
+    height: 50px;
+    width: 30vw;
+    padding: 0 5px;
+    background-color: #253141;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-name a{
+    font-size: 10px;
+    color: #FAFAFA;
+    text-decoration: none;
+  }
+  .create-room a {
+    font-size: 5px;
+    border: 1px solid lightblue;
+    padding: 3px;
+    color: deepskyblue;
+    text-decoration: none;
+  }
+  
+  .head-bar-right {
+    background-color: #61c1e4;
+    height: 50px;
+    width: 70vw;
+    padding: 0 10px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .header-title {
+    color: #333;
+    font-size: 12px;
+  }
+  
+  .header-button a {
+    text-decoration: none;
+    border: 1px solid darkred;
+    color: darkred;
+    padding: 3px;
+  }
+  .chat {
+    background-color: #FFFFFF;
+    height: calc(100vh - 150px);
+    padding: 6px 5px 0;
+    overflow: scroll;
+  }
+  .message {
+    margin: 5px 0 0 0;
+  }
+  
+  .upper-message{
+    display: flex;
+  }
+  
+  .message-user {
+    color: #434a54;
+    font-size: 9px;
+  }
+  
+  .message-date {
+    color: #999;
+    font-size: 7px;
+    padding-left: 5px;
+  }
+  
+  .lower-message {
+    margin-top: 5px;
+  }
+  
+  .message-content {
+    color: #434a54;
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  .under-bar {
+    background-color: #2aa5e7;
+    height: 100px;
+    padding: 20px 40px;
+    display: flex;
+  }
+  .form-input {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+  }
+  
+  .form-message {
+    border: none;
+    font-size: 10px;
+    height: 50px;
+    width: 100%;
+    padding-left: 5px;
+  }
+  
+  .form-submit {
+    background-color: #4fe766;
+    border: none;
+    color: white;
+    font-size: 10px;
+    height: 50px;
+    margin-left: 10px;
+    padding: 0 20px;
+  }
+  .form-image {
+    font-size: 8px;
+    background-color: lightblue;
+    color: white;
+    padding: 5px;
+    width: 40px;
+    margin: 10px 10px;
+    text-align: center;
+  }
+  .hidden {
+    display: none;
+  }
+  }
