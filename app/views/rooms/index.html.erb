@@ -1,0 +1,15 @@
+<div class='wrapper'>
+  <div class='head-bar-left'>
+    <%= render "messages/head_bar_left" %>
+  </div>
+  <div class="head-bar-right">
+ <div class="left-header">
+  <div class="scoler">
+   <select>
+      <option value="">ルーム一覧</option>
+      <% Room.all.each do |room| %>
+      <option value= <a href="#"><%= room.name %></a></option>
+        <% end %>
+      </select>
+      </div>
+</div>
