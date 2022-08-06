@@ -1,13 +1,7 @@
 <div class="head-bar-right">
  <div class="left-header">
     <div class="header-title">
-     <% current_user.rooms.each do |room| %>
-    <div class="room">
-      <div class="room-name">
-        <a href="#"><%= room.name %></a>
-      </div>
-    </div>
-  <% end %>
+ <%= @room.name %>
     </div>
   </div>
   <div class="right-header">

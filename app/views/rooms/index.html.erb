@@ -5,11 +5,12 @@
   <div class="head-bar-right">
  <div class="left-header">
   <div class="scoler">
-   <select>
+   <select onChange="location.href=value;">
       <option value="">ルーム一覧</option>
       <% Room.all.each do |room| %>
-      <option value= <a href="#"><%= room.name %></a></option>
+      <option value= "rooms/<%= room.id %>/messages"><%= room.name %></option>
         <% end %>
+
       </select>
       </div>
 </div>
