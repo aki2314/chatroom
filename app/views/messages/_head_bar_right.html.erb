@@ -1,12 +1,12 @@
 <div class="head-bar-right">
  <div class="left-header">
     <div class="header-title">
-      hogefuga
+   <%= @room.name %>
     </div>
   </div>
   <div class="right-header">
     <div class="header-button">
-      <a href="#">ルーム削除</a>
+       <%= link_to "ルーム削除", room_path(@room), method: :delete %>
     </div>
   </div>
 </div>
