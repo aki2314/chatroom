@@ -22,7 +22,7 @@ Basic認証パスワード : 2222
 #アプリケーションを制作した背景  
 前職では社員間または部署間の連絡は基本的に電話で行われていた。この方法だと着信音に気づかなかった場合折り返し電話をしないと内容が分からず時間がかかってしまう問題があった。その解決策として自分のLINEアカウントを使用していた部長がいたがアカウントに内容は自由にしたかったので極一部の人とのやりとりに使用していた。このことから会社内のみで使えるチャットアプリがあると便利だと思い開発することにした。
 #洗い出した要件  
-要件定義シート(https://docs.google.com/spreadsheets/d/1eqeS6C0okQ6ibNkkoKuDWfUo0wUQq-aE6QxdJRUjGCM/edit#gid=982722306)  
+[要件定義シート](https://docs.google.com/spreadsheets/d/1eqeS6C0okQ6ibNkkoKuDWfUo0wUQq-aE6QxdJRUjGCM/edit#gid=982722306)  
 #実装した機能について  
 ユーザー管理機能  
 チャット管理機能  
